@@ -1,0 +1,58 @@
+body{
+    background: url(warriors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+article{
+   padding: 0;
+   margin: 0;
+}
+
+.overlay{
+    width: 30%;
+    height: 10%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2em solid black;
+    box-shadow: 7px 3px black;
+
+}
+
+#score{
+    position: absolute;
+    background-color: #414141;
+    top: 5%
+}
+
+#network{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: gold;
+    border-radius: 1em;
+    width: 10%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#team1, #team2{
+    background-color: red;
+}
+
+.team1{
+    position: left;
+    background-color: blue;
+    border-radius: 1em;
+}
+
+.team2{
+    position: right;
+}
