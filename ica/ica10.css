@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.colorButton, .colorText {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.colorButton:hover {
+    background-color: lightpink; 
+}
+
+.colorText:hover {
+    color: lightblue; 
+}
