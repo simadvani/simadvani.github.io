@@ -1,0 +1,26 @@
+p {
+    color: purple;
+    margin: 0.5em 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* quiz13.css */
+
+.preview {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  p {
+    color: purple;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  
+  
