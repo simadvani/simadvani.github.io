@@ -1,0 +1,68 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.phone-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.label {
+    font-size: 24px;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.bad-input {
+    border: 5px solid yellow;
+    background-color: lightgreen;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    position: relative;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+@keyframes float {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(100px, -100px); }
+    50% { transform: translate(200px, 0); }
+    75% { transform: translate(100px, 100px); }
+    100% { transform: translate(0, 0); }
+}
+
+.button-container button {
+    animation: float 5s infinite ease-in-out;
+}
+
+button:nth-child(1) { animation-delay: 0s; }
+button:nth-child(2) { animation-delay: 0.5s; }
+button:nth-child(3) { animation-delay: 1s; }
+button:nth-child(4) { animation-delay: 1.5s; }
+button:nth-child(5) { animation-delay: 2s; }
+button:nth-child(6) { animation-delay: 2.5s; }
+button:nth-child(7) { animation-delay: 3s; }
+button:nth-child(8) { animation-delay: 3.5s; }
+button:nth-child(9) { animation-delay: 4s; }
+button:nth-child(10) { animation-delay: 4.5s; }
+button:nth-child(11) { animation-delay: 5s; }
+button:nth-child(12) { animation-delay: 5.5s; }
