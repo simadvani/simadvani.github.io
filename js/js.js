@@ -31,7 +31,7 @@ function floatButtons() {
         button.style.transform = `translate(${randomX}px, ${randomY}px) scale(${scale}) rotate(${rotation}deg)`;
     });
 
-    setTimeout(floatButtons, 1000); 
+    setTimeout(floatButtons, 1500); 
 }
 
 
